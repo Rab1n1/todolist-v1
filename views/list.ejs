@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+</head>
+<body>
+    <% if (KindOfDay === "Friday" || KindOfDay === "Saturday") { %>
+        <h1 style="color:green;"> <%= KindOfDay %> To do list</h1>
+    <% } else { %>
+        <h1 style="color:purple;"><%= KindOfDay %> To do list</h1>
+    <% } %>
+</body>
+</html>
